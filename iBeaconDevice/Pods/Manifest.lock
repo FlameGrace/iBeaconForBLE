@@ -1,0 +1,16 @@
+PODS:
+  - DispatchTimer (0.0.5)
+
+DEPENDENCIES:
+  - DispatchTimer
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DispatchTimer
+
+SPEC CHECKSUMS:
+  DispatchTimer: 8b8466c3b7b5011feae13bf8719be7abe07164eb
+
+PODFILE CHECKSUM: b9a992fd7ffde44bd42d413d98ed91e1504386c2
+
+COCOAPODS: 1.9.1

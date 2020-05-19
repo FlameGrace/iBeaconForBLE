@@ -1,0 +1,20 @@
+PODS:
+  - DispatchTimer (0.0.3)
+  - FGLogger (0.0.3)
+
+DEPENDENCIES:
+  - DispatchTimer
+  - FGLogger
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DispatchTimer
+    - FGLogger
+
+SPEC CHECKSUMS:
+  DispatchTimer: affb6b19ee2e77ba6767d14ca6acc37f3dd4d4cf
+  FGLogger: b75cab72739d7c8e85d6823f9e18a6d76e01ff1c
+
+PODFILE CHECKSUM: 82eaf61c1b8615af9bd41ed42857a58f3fbee9c3
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EB2E00000280 /* DispatchTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* DispatchTimer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000290 /* DispatchTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* DispatchTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000002F0 /* DispatchTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* DispatchTimer-dummy.m */; };
+		46EB2E00000380 /* FGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* FGLog.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000390 /* FGFileContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* FGFileContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003A0 /* FGPrintFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* FGPrintFolderViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003B0 /* FGPrintLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* FGPrintLogViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003C0 /* FGLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* FGLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003D0 /* FGLoggerComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* FGLoggerComponent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003E0 /* FGSingleRunLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* FGSingleRunLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000003F0 /* FGTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* FGTTYLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000400 /* FGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* FGLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000410 /* FGFileContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* FGFileContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000420 /* FGPrintFolderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* FGPrintFolderViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000430 /* FGPrintLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* FGPrintLogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000440 /* FGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* FGLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000450 /* FGLoggerComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* FGLoggerComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000460 /* FGSingleRunLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* FGSingleRunLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000470 /* FGTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* FGTTYLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000004D0 /* FGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* FGLogger-dummy.m */; };
+		46EB2E000005C0 /* Pods-DemoProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005B0 /* Pods-DemoProject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EB2E000005D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C08C74B172A78E4ED6F10A81E5B685;
+			remoteInfo = DispatchTimer;
+		};
+		46EB2E000005F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC7CEEDBFD167112475E80A6EF2CB84;
+			remoteInfo = FGLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1149663C645710A33A4A41A38254ECF7 /* libDispatchTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDispatchTimer.a; path = libDispatchTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		146DA159EBB7ACF5660A4E0FA6370825 /* libPods-DemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoProject.a"; path = "libPods-DemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000000D0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000E0 /* DispatchTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DispatchTimer.h; sourceTree = "<group>"; };
+		46EB2E000000F0 /* DispatchTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DispatchTimer.m; sourceTree = "<group>"; };
+		46EB2E00000100 /* FGLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGLog.h; path = Classes/FGLog.h; sourceTree = "<group>"; };
+		46EB2E00000110 /* FGLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGLog.m; path = Classes/FGLog.m; sourceTree = "<group>"; };
+		46EB2E00000120 /* FGFileContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGFileContext.h; path = Classes/Application/FGFileContext.h; sourceTree = "<group>"; };
+		46EB2E00000130 /* FGFileContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGFileContext.m; path = Classes/Application/FGFileContext.m; sourceTree = "<group>"; };
+		46EB2E00000140 /* FGPrintFolderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGPrintFolderViewController.h; path = Classes/Application/FGPrintFolderViewController.h; sourceTree = "<group>"; };
+		46EB2E00000150 /* FGPrintFolderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGPrintFolderViewController.m; path = Classes/Application/FGPrintFolderViewController.m; sourceTree = "<group>"; };
+		46EB2E00000160 /* FGPrintLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGPrintLogViewController.h; path = Classes/Application/FGPrintLogViewController.h; sourceTree = "<group>"; };
+		46EB2E00000170 /* FGPrintLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGPrintLogViewController.m; path = Classes/Application/FGPrintLogViewController.m; sourceTree = "<group>"; };
+		46EB2E00000180 /* FGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGLogger.h; path = Classes/Logger/FGLogger.h; sourceTree = "<group>"; };
+		46EB2E00000190 /* FGLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGLogger.m; path = Classes/Logger/FGLogger.m; sourceTree = "<group>"; };
+		46EB2E000001A0 /* FGLoggerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGLoggerComponent.h; path = Classes/Logger/FGLoggerComponent.h; sourceTree = "<group>"; };
+		46EB2E000001B0 /* FGLoggerComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGLoggerComponent.m; path = Classes/Logger/FGLoggerComponent.m; sourceTree = "<group>"; };
+		46EB2E000001C0 /* FGSingleRunLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGSingleRunLogger.h; path = Classes/Logger/FGSingleRunLogger.h; sourceTree = "<group>"; };
+		46EB2E000001D0 /* FGSingleRunLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGSingleRunLogger.m; path = Classes/Logger/FGSingleRunLogger.m; sourceTree = "<group>"; };
+		46EB2E000001E0 /* FGTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGTTYLogger.h; path = Classes/Logger/FGTTYLogger.h; sourceTree = "<group>"; };
+		46EB2E000001F0 /* FGTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGTTYLogger.m; path = Classes/Logger/FGTTYLogger.m; sourceTree = "<group>"; };
+		46EB2E000002B0 /* DispatchTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DispatchTimer.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000002C0 /* DispatchTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DispatchTimer.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E000002D0 /* DispatchTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DispatchTimer-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E000002E0 /* DispatchTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DispatchTimer-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000490 /* FGLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGLogger.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000004A0 /* FGLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGLogger.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E000004B0 /* FGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGLogger-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E000004C0 /* FGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGLogger-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000570 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000580 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000590 /* Pods-DemoProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000005A0 /* Pods-DemoProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000005B0 /* Pods-DemoProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoProject-dummy.m"; sourceTree = "<group>"; };
+		67858E1610B6C142281A33444ACE18F9 /* libFGLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFGLogger.a; path = libFGLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EB2E00000270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EB2E00000010 = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000D0 /* Podfile */,
+				46EB2E00000060 /* Frameworks */,
+				46EB2E00000080 /* Pods */,
+				46EB2E00000020 /* Products */,
+				46EB2E00000070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		46EB2E00000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1149663C645710A33A4A41A38254ECF7 /* libDispatchTimer.a */,
+				67858E1610B6C142281A33444ACE18F9 /* libFGLogger.a */,
+				146DA159EBB7ACF5660A4E0FA6370825 /* libPods-DemoProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EB2E00000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EB2E00000070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000560 /* Pods-DemoProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46EB2E00000080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000B0 /* DispatchTimer */,
+				46EB2E000000C0 /* FGLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46EB2E000000B0 /* DispatchTimer */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000E0 /* DispatchTimer.h */,
+				46EB2E000000F0 /* DispatchTimer.m */,
+				46EB2E000002A0 /* Support Files */,
+			);
+			name = DispatchTimer;
+			path = DispatchTimer;
+			sourceTree = "<group>";
+		};
+		46EB2E000000C0 /* FGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000120 /* FGFileContext.h */,
+				46EB2E00000130 /* FGFileContext.m */,
+				46EB2E00000100 /* FGLog.h */,
+				46EB2E00000110 /* FGLog.m */,
+				46EB2E00000180 /* FGLogger.h */,
+				46EB2E00000190 /* FGLogger.m */,
+				46EB2E000001A0 /* FGLoggerComponent.h */,
+				46EB2E000001B0 /* FGLoggerComponent.m */,
+				46EB2E00000140 /* FGPrintFolderViewController.h */,
+				46EB2E00000150 /* FGPrintFolderViewController.m */,
+				46EB2E00000160 /* FGPrintLogViewController.h */,
+				46EB2E00000170 /* FGPrintLogViewController.m */,
+				46EB2E000001C0 /* FGSingleRunLogger.h */,
+				46EB2E000001D0 /* FGSingleRunLogger.m */,
+				46EB2E000001E0 /* FGTTYLogger.h */,
+				46EB2E000001F0 /* FGTTYLogger.m */,
+				46EB2E00000480 /* Support Files */,
+			);
+			name = FGLogger;
+			path = FGLogger;
+			sourceTree = "<group>";
+		};
+		46EB2E000002A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000002E0 /* DispatchTimer-dummy.m */,
+				46EB2E000002D0 /* DispatchTimer-prefix.pch */,
+				46EB2E000002B0 /* DispatchTimer.debug.xcconfig */,
+				46EB2E000002C0 /* DispatchTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DispatchTimer";
+			sourceTree = "<group>";
+		};
+		46EB2E00000480 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000004C0 /* FGLogger-dummy.m */,
+				46EB2E000004B0 /* FGLogger-prefix.pch */,
+				46EB2E00000490 /* FGLogger.debug.xcconfig */,
+				46EB2E000004A0 /* FGLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FGLogger";
+			sourceTree = "<group>";
+		};
+		46EB2E00000560 /* Pods-DemoProject */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000005A0 /* Pods-DemoProject-acknowledgements.markdown */,
+				46EB2E00000590 /* Pods-DemoProject-acknowledgements.plist */,
+				46EB2E000005B0 /* Pods-DemoProject-dummy.m */,
+				46EB2E00000580 /* Pods-DemoProject.debug.xcconfig */,
+				46EB2E00000570 /* Pods-DemoProject.release.xcconfig */,
+			);
+			name = "Pods-DemoProject";
+			path = "Target Support Files/Pods-DemoProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46EB2E00000250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000290 /* DispatchTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000350 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000410 /* FGFileContext.h in Headers */,
+				46EB2E00000400 /* FGLog.h in Headers */,
+				46EB2E00000440 /* FGLogger.h in Headers */,
+				46EB2E00000450 /* FGLoggerComponent.h in Headers */,
+				46EB2E00000420 /* FGPrintFolderViewController.h in Headers */,
+				46EB2E00000430 /* FGPrintLogViewController.h in Headers */,
+				46EB2E00000460 /* FGSingleRunLogger.h in Headers */,
+				46EB2E00000470 /* FGTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000530 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2443674F756B3314267E7AD76BC62FF2 /* Pods-DemoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000004F0 /* Build configuration list for PBXNativeTarget "Pods-DemoProject" */;
+			buildPhases = (
+				46EB2E00000530 /* Headers */,
+				46EB2E00000540 /* Sources */,
+				46EB2E00000550 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E000005E0 /* PBXTargetDependency */,
+				46EB2E00000600 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoProject";
+			productName = "Pods-DemoProject";
+			productReference = 146DA159EBB7ACF5660A4E0FA6370825 /* libPods-DemoProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BC7CEEDBFD167112475E80A6EF2CB84 /* FGLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00000310 /* Build configuration list for PBXNativeTarget "FGLogger" */;
+			buildPhases = (
+				46EB2E00000350 /* Headers */,
+				46EB2E00000360 /* Sources */,
+				46EB2E00000370 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGLogger;
+			productName = FGLogger;
+			productReference = 67858E1610B6C142281A33444ACE18F9 /* libFGLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9C08C74B172A78E4ED6F10A81E5B685 /* DispatchTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00000210 /* Build configuration list for PBXNativeTarget "DispatchTimer" */;
+			buildPhases = (
+				46EB2E00000250 /* Headers */,
+				46EB2E00000260 /* Sources */,
+				46EB2E00000270 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DispatchTimer;
+			productName = DispatchTimer;
+			productReference = 1149663C645710A33A4A41A38254ECF7 /* libDispatchTimer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EB2E00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46EB2E00000010;
+			productRefGroup = 46EB2E00000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C08C74B172A78E4ED6F10A81E5B685 /* DispatchTimer */,
+				9BC7CEEDBFD167112475E80A6EF2CB84 /* FGLogger */,
+				2443674F756B3314267E7AD76BC62FF2 /* Pods-DemoProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EB2E00000260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000002F0 /* DispatchTimer-dummy.m in Sources */,
+				46EB2E00000280 /* DispatchTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000390 /* FGFileContext.m in Sources */,
+				46EB2E00000380 /* FGLog.m in Sources */,
+				46EB2E000004D0 /* FGLogger-dummy.m in Sources */,
+				46EB2E000003C0 /* FGLogger.m in Sources */,
+				46EB2E000003D0 /* FGLoggerComponent.m in Sources */,
+				46EB2E000003A0 /* FGPrintFolderViewController.m in Sources */,
+				46EB2E000003B0 /* FGPrintLogViewController.m in Sources */,
+				46EB2E000003E0 /* FGSingleRunLogger.m in Sources */,
+				46EB2E000003F0 /* FGTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000005C0 /* Pods-DemoProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EB2E000005E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DispatchTimer;
+			target = D9C08C74B172A78E4ED6F10A81E5B685 /* DispatchTimer */;
+			targetProxy = 46EB2E000005D0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGLogger;
+			target = 9BC7CEEDBFD167112475E80A6EF2CB84 /* FGLogger */;
+			targetProxy = 46EB2E000005F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46EB2E00000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46EB2E00000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		46EB2E00000220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000002C0 /* DispatchTimer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DispatchTimer/DispatchTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DispatchTimer;
+				PRODUCT_NAME = DispatchTimer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E00000230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000002B0 /* DispatchTimer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DispatchTimer/DispatchTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DispatchTimer;
+				PRODUCT_NAME = DispatchTimer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EB2E00000320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000004A0 /* FGLogger.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FGLogger/FGLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FGLogger;
+				PRODUCT_NAME = FGLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E00000330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000490 /* FGLogger.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FGLogger/FGLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FGLogger;
+				PRODUCT_NAME = FGLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EB2E00000500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000570 /* Pods-DemoProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E00000510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000580 /* Pods-DemoProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EB2E00000030 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000040 /* Debug */,
+				46EB2E00000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00000210 /* Build configuration list for PBXNativeTarget "DispatchTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000230 /* Debug */,
+				46EB2E00000220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00000310 /* Build configuration list for PBXNativeTarget "FGLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000330 /* Debug */,
+				46EB2E00000320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E000004F0 /* Build configuration list for PBXNativeTarget "Pods-DemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000510 /* Debug */,
+				46EB2E00000500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EB2E00000000 /* Project object */;
+}

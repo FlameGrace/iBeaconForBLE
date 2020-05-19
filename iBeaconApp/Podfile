@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'DemoProject' do
+  pod 'DispatchTimer'
+  pod 'FGLogger'
+end
